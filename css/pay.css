@@ -218,8 +218,7 @@ main{
     position: absolute;
     background-color: var(--color-quaternary);
     display: flex;
-    flex-direction: column;
-   justify-content: center;
+  
    margin-left: 40rem;
    gap: 2rem;
    border-radius: 3%;
@@ -227,6 +226,8 @@ main{
    
 
 }
+
+
 .ventana a{
     font-size: x-large;
     text-align: right;
@@ -247,7 +248,8 @@ main{
 
 }
 .ventana img{
-   width: 500px;
+   width: 200px;
+   height: ;
 }
 
 .texto__ventana{
@@ -275,6 +277,7 @@ main{
 .img__ventana{
     display: flex;
     justify-content: center;
+
 }
 .ventana a{
     font-size: xx-large;
