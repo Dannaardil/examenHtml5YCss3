@@ -1,0 +1,182 @@
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url(fonts.css);
+/* font-family: "Gurajada", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Kantumruy Pro", sans-serif;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+ 
+    background-color: var(--color-secondary);
+
+
+}
+.header i{
+    font-size: xx-large;
+    text-align: right;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size:x-large;
+    
+   
+}
+.productos a{
+    color: black
+}
+.page__1{
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.left img{
+    width: 200px;
+    height: auto;
+   
+    
+
+
+}
+.right{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    gap: 2rem
+    
+}
+.price{
+    display: flex;
+    gap: 1rem
+}
+
+.description button{
+    font-size: x-large;
+
+    width: 10rem;
+    padding: 0.5rem;
+}
+
+.img__right__1 img{
+    width: 700px;
+ 
+    
+
+}
+
+ .img__right__1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+    justify-content: center;
+    background-color: blue;
+
+}
+.page__2 img{
+    width: 200px;
+    height: auto;
+ 
+  
+}
+.img__right__2 img{
+    width: 700px;
+ 
+    
+
+}
+
+ .img__right__2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.page__3 img{
+    width: 200px;
+    height: auto;
+  
+}
+
+.img__right__3 img{
+    width: 700px;
+ 
+    
+
+}
+
+ .img__right__3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.page__4 img{
+    width: 200px;
+    height: auto;
+  
+}
+
+.img__right__4 img{
+    width: 700px;
+ 
+    
+
+}
+
+ .img__right__4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.page__2{
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.page__3{
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.page__4{
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
